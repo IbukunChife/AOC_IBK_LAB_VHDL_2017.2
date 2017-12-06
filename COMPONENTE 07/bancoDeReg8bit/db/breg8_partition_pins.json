@@ -1,0 +1,121 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SaidaA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaB[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaB[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaB[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SaidaB[7]",
+					"strict" : false
+				},
+				{
+					"name" : "RegA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "EscritaReg",
+					"strict" : false
+				},
+				{
+					"name" : "RegB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Dado[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

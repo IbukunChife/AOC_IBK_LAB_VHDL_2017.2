@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 03/mxor/mand.vhd
+source_file = 1, C:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 03/mxor/mor.vhd
+source_file = 1, C:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 03/mxor/mnot.vhd
+source_file = 1, C:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 03/mxor/mxor.vhd
+source_file = 1, C:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 03/mxor/Waveform.vwf
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 03/mxor/db/mxor.cbx.xml
+design_name = mxor
+instance = comp, \S~output , S~output, mxor, 1
+instance = comp, \A~input , A~input, mxor, 1
+instance = comp, \B~input , B~input, mxor, 1
+instance = comp, \G3|R~0 , G3|R~0, mxor, 1

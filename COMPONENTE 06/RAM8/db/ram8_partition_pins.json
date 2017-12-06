@@ -1,0 +1,97 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "data_saida[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data_saida[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data_saida[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data_saida[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data_saida[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data_saida[5]",
+					"strict" : false
+				},
+				{
+					"name" : "data_saida[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data_saida[7]",
+					"strict" : false
+				},
+				{
+					"name" : "address[0]",
+					"strict" : false
+				},
+				{
+					"name" : "address[1]",
+					"strict" : false
+				},
+				{
+					"name" : "address[2]",
+					"strict" : false
+				},
+				{
+					"name" : "address[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data_entrada[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ce",
+					"strict" : false
+				},
+				{
+					"name" : "we",
+					"strict" : false
+				},
+				{
+					"name" : "data_entrada[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data_entrada[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data_entrada[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data_entrada[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data_entrada[5]",
+					"strict" : false
+				},
+				{
+					"name" : "data_entrada[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data_entrada[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

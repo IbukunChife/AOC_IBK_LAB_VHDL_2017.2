@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 04/Somador/simulation/qsim
+vsomador
+!s110 1512280065
+!i10b 1
+!s100 dKnznz9MBmD<54a2lllmE1
+IgP@7>dTzTGjXYi^XGgl3>1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1512280050
+8somador.vo
+Fsomador.vo
+L0 32
+Z2 OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1512280065.000000
+!s107 somador.vo|
+!s90 -work|work|somador.vo|
+!i113 1
+Z3 o-work work
+vsomador_vlg_vec_tst
+!s110 1512280067
+!i10b 1
+!s100 G4@JgjEGBTR^iFb?le[jj0
+I0m>khS:0m=iGng^?R3Go23
+R1
+R0
+w1512280036
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+!s108 1512280066.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R3

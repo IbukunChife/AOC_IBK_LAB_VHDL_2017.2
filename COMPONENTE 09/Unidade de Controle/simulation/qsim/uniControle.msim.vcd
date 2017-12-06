@@ -1,0 +1,274 @@
+$comment
+	File created using the following command:
+		vcd file uniControle.msim.vcd -direction
+$end
+$date
+	Tue Dec 05 21:06:09 2017
+$end
+$version
+	ModelSim Version 10.4b
+$end
+$timescale
+	1ps
+$end
+
+$scope module uniControle_vlg_vec_tst $end
+$var reg 1 ! clock $end
+$var reg 4 " opcode [3:0] $end
+$var reg 1 # treg_pc_flag $end
+$var wire 1 $ esc_men $end
+$var wire 1 % esc_reg $end
+$var wire 1 & ler_men $end
+$var wire 1 ' memParaReg $end
+$var wire 1 ( pc_flag $end
+$var wire 1 ) ula_fonte $end
+$var wire 1 * ULAop [2] $end
+$var wire 1 + ULAop [1] $end
+$var wire 1 , ULAop [0] $end
+
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var tri1 1 0 devclrn $end
+$var tri1 1 1 devpor $end
+$var tri1 1 2 devoe $end
+$var wire 1 3 pc_flag~input_o $end
+$var wire 1 4 pc_flag~output_o $end
+$var wire 1 5 ler_men~output_o $end
+$var wire 1 6 esc_men~output_o $end
+$var wire 1 7 memParaReg~output_o $end
+$var wire 1 8 ULAop[0]~output_o $end
+$var wire 1 9 ULAop[1]~output_o $end
+$var wire 1 : ULAop[2]~output_o $end
+$var wire 1 ; esc_reg~output_o $end
+$var wire 1 < ula_fonte~output_o $end
+$var wire 1 = clock~input_o $end
+$var wire 1 > opcode[1]~input_o $end
+$var wire 1 ? opcode[0]~input_o $end
+$var wire 1 @ opcode[2]~input_o $end
+$var wire 1 A opcode[3]~input_o $end
+$var wire 1 B ULAop~0_combout $end
+$var wire 1 C esc_men~0_combout $end
+$var wire 1 D ULAop[0]~reg0_q $end
+$var wire 1 E ULAop~1_combout $end
+$var wire 1 F ULAop[1]~reg0_q $end
+$var wire 1 G ULAop~2_combout $end
+$var wire 1 H ULAop[2]~reg0_q $end
+$var wire 1 I Equal4~0_combout $end
+$var wire 1 J ula_fonte~reg0_q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b0 "
+1#
+0$
+0%
+0&
+1'
+1(
+0)
+0,
+0+
+0*
+0-
+1.
+x/
+10
+11
+12
+13
+14
+05
+06
+17
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+1C
+0D
+1E
+0F
+0G
+0H
+0I
+0J
+$end
+#500000
+1!
+1=
+1F
+19
+1+
+#1000000
+0!
+0=
+#1500000
+1!
+1=
+#2000000
+b1 "
+0!
+1?
+0=
+1B
+#2500000
+1!
+1=
+1D
+18
+1,
+#3000000
+0!
+0=
+#3500000
+1!
+1=
+#4000000
+b11 "
+b10 "
+0!
+0?
+1>
+0=
+0E
+0B
+#4500000
+1!
+1=
+0F
+0D
+08
+09
+0+
+0,
+#5000000
+0!
+0=
+#5500000
+1!
+1=
+#6000000
+b11 "
+0!
+1?
+0=
+1B
+#6500000
+1!
+1=
+1D
+18
+1,
+#7000000
+0!
+0=
+#7500000
+1!
+1=
+#8000000
+b111 "
+b101 "
+b100 "
+0!
+0?
+0>
+1@
+0=
+1I
+1G
+0B
+#8500000
+1!
+1=
+1J
+1H
+0D
+08
+1:
+1<
+1)
+1*
+0,
+#9000000
+0!
+0=
+#9500000
+1!
+1=
+#10000000
+b101 "
+0!
+1?
+0=
+0I
+1E
+#10500000
+1!
+1=
+0J
+1F
+19
+0<
+0)
+1+
+#11000000
+0!
+0=
+#11500000
+1!
+1=
+#12000000
+b111 "
+b110 "
+0!
+0?
+1>
+0=
+0E
+1B
+#12500000
+1!
+1=
+0F
+1D
+18
+09
+0+
+1,
+#13000000
+0!
+0=
+#13500000
+1!
+1=
+#14000000
+b111 "
+0!
+1?
+0=
+0C
+0G
+1E
+0B
+#14500000
+1!
+1=
+#15000000
+0!
+0=
+#15500000
+1!
+1=
+#16000000

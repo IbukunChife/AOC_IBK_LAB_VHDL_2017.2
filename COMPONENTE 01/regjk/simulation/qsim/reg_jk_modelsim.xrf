@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 01/regjk/reg_jk.vhd
+source_file = 1, C:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 01/regjk/Waveform.vwf
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 01/regjk/db/reg_jk.cbx.xml
+design_name = reg_jk
+instance = comp, \Q_out~output , Q_out~output, reg_jk, 1
+instance = comp, \Clk~input , Clk~input, reg_jk, 1
+instance = comp, \J~input , J~input, reg_jk, 1
+instance = comp, \K~input , K~input, reg_jk, 1
+instance = comp, \Mux0~0 , Mux0~0, reg_jk, 1

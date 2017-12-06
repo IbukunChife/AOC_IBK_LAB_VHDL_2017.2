@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 06/RAM8/simulation/qsim
+vram8
+!s110 1512421672
+!i10b 1
+!s100 `fJ@:cA3PkaQSA4i75ZYo0
+I=[JdP;flZOOQO2Ghi4FOo3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1512421548
+8ram8.vo
+Fram8.vo
+L0 32
+Z2 OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1512421672.000000
+!s107 ram8.vo|
+!s90 -work|work|ram8.vo|
+!i113 1
+Z3 o-work work
+vram8_vlg_vec_tst
+!s110 1512421693
+!i10b 1
+!s100 H75mA8_gZ_j1A9XcfX@?S1
+I?fa^gA<;QY_JGZ0ImQP872
+R1
+R0
+w1512421497
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+!s108 1512421693.000000
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R3

@@ -1,0 +1,7 @@
+
+State Machine - |maq_est|estado
+Name estado.caso_d estado.caso_c estado.caso_b estado.caso_a 
+estado.caso_a 0 0 0 0 
+estado.caso_b 0 0 1 1 
+estado.caso_c 0 1 0 1 
+estado.caso_d 1 0 0 1 

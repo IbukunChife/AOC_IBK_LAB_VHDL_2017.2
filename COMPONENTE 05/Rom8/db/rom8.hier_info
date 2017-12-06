@@ -1,0 +1,15 @@
+|rom8
+address[0] => data[0].DATAIN
+address[1] => data[1].DATAIN
+address[2] => data[2].DATAIN
+address[3] => data[3].DATAIN
+data[0] <= address[0].DB_MAX_OUTPUT_PORT_TYPE
+data[1] <= address[1].DB_MAX_OUTPUT_PORT_TYPE
+data[2] <= address[2].DB_MAX_OUTPUT_PORT_TYPE
+data[3] <= address[3].DB_MAX_OUTPUT_PORT_TYPE
+data[4] <= <GND>
+data[5] <= <GND>
+data[6] <= <GND>
+data[7] <= <GND>
+
+

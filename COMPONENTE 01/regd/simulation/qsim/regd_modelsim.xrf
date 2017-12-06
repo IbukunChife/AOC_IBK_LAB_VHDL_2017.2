@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 01/regd/regd.vhd
+source_file = 1, C:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 01/regd/Waveform.vwf
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 01/regd/db/regd.cbx.xml
+design_name = regd
+instance = comp, \Q~output , Q~output, regd, 1
+instance = comp, \CLOCK~input , CLOCK~input, regd, 1
+instance = comp, \D~input , D~input, regd, 1
+instance = comp, \Q~reg0 , Q~reg0, regd, 1

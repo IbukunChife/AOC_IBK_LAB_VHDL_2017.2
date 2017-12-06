@@ -1,0 +1,329 @@
+// Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus Prime License Agreement,
+// the Altera MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Altera and sold by Altera or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition"
+
+// DATE "12/05/2017 18:33:07"
+
+// 
+// Device: Altera 5CGXFC7C7F23C8 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module contadorSincrono (
+	clock,
+	reset,
+	enable,
+	q);
+input 	clock;
+input 	reset;
+input 	enable;
+output 	[3:0] q;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \q[0]~output_o ;
+wire \q[1]~output_o ;
+wire \q[2]~output_o ;
+wire \q[3]~output_o ;
+wire \clock~input_o ;
+wire \enable~input_o ;
+wire \contagem[0]~0_combout ;
+wire \reset~input_o ;
+wire \contagem[1]~1_combout ;
+wire \contagem[2]~2_combout ;
+wire \contagem[3]~3_combout ;
+wire [3:0] contagem;
+
+
+cyclonev_io_obuf \q[0]~output (
+	.i(contagem[0]),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\q[0]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \q[0]~output .bus_hold = "false";
+defparam \q[0]~output .open_drain_output = "false";
+defparam \q[0]~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_obuf \q[1]~output (
+	.i(contagem[1]),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\q[1]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \q[1]~output .bus_hold = "false";
+defparam \q[1]~output .open_drain_output = "false";
+defparam \q[1]~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_obuf \q[2]~output (
+	.i(contagem[2]),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\q[2]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \q[2]~output .bus_hold = "false";
+defparam \q[2]~output .open_drain_output = "false";
+defparam \q[2]~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_obuf \q[3]~output (
+	.i(contagem[3]),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\q[3]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \q[3]~output .bus_hold = "false";
+defparam \q[3]~output .open_drain_output = "false";
+defparam \q[3]~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_ibuf \clock~input (
+	.i(clock),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\clock~input_o ));
+// synopsys translate_off
+defparam \clock~input .bus_hold = "false";
+defparam \clock~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \enable~input (
+	.i(enable),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\enable~input_o ));
+// synopsys translate_off
+defparam \enable~input .bus_hold = "false";
+defparam \enable~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_lcell_comb \contagem[0]~0 (
+// Equation(s):
+// \contagem[0]~0_combout  = !contagem[0] $ (!\enable~input_o )
+
+	.dataa(!contagem[0]),
+	.datab(!\enable~input_o ),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\contagem[0]~0_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \contagem[0]~0 .extended_lut = "off";
+defparam \contagem[0]~0 .lut_mask = 64'h6666666666666666;
+defparam \contagem[0]~0 .shared_arith = "off";
+// synopsys translate_on
+
+cyclonev_io_ibuf \reset~input (
+	.i(reset),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\reset~input_o ));
+// synopsys translate_off
+defparam \reset~input .bus_hold = "false";
+defparam \reset~input .simulate_z_as = "z";
+// synopsys translate_on
+
+dffeas \contagem[0] (
+	.clk(\clock~input_o ),
+	.d(\contagem[0]~0_combout ),
+	.asdata(vcc),
+	.clrn(!\reset~input_o ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(contagem[0]),
+	.prn(vcc));
+// synopsys translate_off
+defparam \contagem[0] .is_wysiwyg = "true";
+defparam \contagem[0] .power_up = "low";
+// synopsys translate_on
+
+cyclonev_lcell_comb \contagem[1]~1 (
+// Equation(s):
+// \contagem[1]~1_combout  = !contagem[1] $ (((!contagem[0]) # (!\enable~input_o )))
+
+	.dataa(!contagem[0]),
+	.datab(!contagem[1]),
+	.datac(!\enable~input_o ),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\contagem[1]~1_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \contagem[1]~1 .extended_lut = "off";
+defparam \contagem[1]~1 .lut_mask = 64'h3636363636363636;
+defparam \contagem[1]~1 .shared_arith = "off";
+// synopsys translate_on
+
+dffeas \contagem[1] (
+	.clk(\clock~input_o ),
+	.d(\contagem[1]~1_combout ),
+	.asdata(vcc),
+	.clrn(!\reset~input_o ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(contagem[1]),
+	.prn(vcc));
+// synopsys translate_off
+defparam \contagem[1] .is_wysiwyg = "true";
+defparam \contagem[1] .power_up = "low";
+// synopsys translate_on
+
+cyclonev_lcell_comb \contagem[2]~2 (
+// Equation(s):
+// \contagem[2]~2_combout  = !contagem[2] $ (((!contagem[0]) # ((!contagem[1]) # (!\enable~input_o ))))
+
+	.dataa(!contagem[0]),
+	.datab(!contagem[1]),
+	.datac(!contagem[2]),
+	.datad(!\enable~input_o ),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\contagem[2]~2_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \contagem[2]~2 .extended_lut = "off";
+defparam \contagem[2]~2 .lut_mask = 64'h0F1E0F1E0F1E0F1E;
+defparam \contagem[2]~2 .shared_arith = "off";
+// synopsys translate_on
+
+dffeas \contagem[2] (
+	.clk(\clock~input_o ),
+	.d(\contagem[2]~2_combout ),
+	.asdata(vcc),
+	.clrn(!\reset~input_o ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(contagem[2]),
+	.prn(vcc));
+// synopsys translate_off
+defparam \contagem[2] .is_wysiwyg = "true";
+defparam \contagem[2] .power_up = "low";
+// synopsys translate_on
+
+cyclonev_lcell_comb \contagem[3]~3 (
+// Equation(s):
+// \contagem[3]~3_combout  = ( \enable~input_o  & ( !contagem[3] $ (((!contagem[0]) # ((!contagem[1]) # (!contagem[2])))) ) ) # ( !\enable~input_o  & ( contagem[3] ) )
+
+	.dataa(!contagem[0]),
+	.datab(!contagem[1]),
+	.datac(!contagem[2]),
+	.datad(!contagem[3]),
+	.datae(!\enable~input_o ),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\contagem[3]~3_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \contagem[3]~3 .extended_lut = "off";
+defparam \contagem[3]~3 .lut_mask = 64'h00FF01FE00FF01FE;
+defparam \contagem[3]~3 .shared_arith = "off";
+// synopsys translate_on
+
+dffeas \contagem[3] (
+	.clk(\clock~input_o ),
+	.d(\contagem[3]~3_combout ),
+	.asdata(vcc),
+	.clrn(!\reset~input_o ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(contagem[3]),
+	.prn(vcc));
+// synopsys translate_off
+defparam \contagem[3] .is_wysiwyg = "true";
+defparam \contagem[3] .power_up = "low";
+// synopsys translate_on
+
+assign q[0] = \q[0]~output_o ;
+
+assign q[1] = \q[1]~output_o ;
+
+assign q[2] = \q[2]~output_o ;
+
+assign q[3] = \q[3]~output_o ;
+
+endmodule

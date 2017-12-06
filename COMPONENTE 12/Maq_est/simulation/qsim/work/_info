@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 12/Maq_est/simulation/qsim
+vmaq_est
+!s110 1512518318
+!i10b 1
+!s100 6E_4MLZGaQRVH7iCJL_Al3
+I:5an?56^3SN_3^g5B2fW`2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1512518193
+8maq_est.vo
+Fmaq_est.vo
+L0 32
+Z2 OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1512518318.000000
+!s107 maq_est.vo|
+!s90 -work|work|maq_est.vo|
+!i113 1
+Z3 o-work work
+vmaq_est_vlg_vec_tst
+!s110 1512518339
+!i10b 1
+!s100 GLMecYS5F[n77b3HkeX0[2
+I4V[VH0PT@@@AbK`<LlZ?b3
+R1
+R0
+w1512518143
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+!s108 1512518339.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R3

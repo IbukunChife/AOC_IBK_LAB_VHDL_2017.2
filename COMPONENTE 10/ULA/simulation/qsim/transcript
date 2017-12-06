@@ -1,0 +1,27 @@
+# do ula.do
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 21:36:29 on Dec 05,2017
+# vlog -work work ula.vo 
+# -- Compiling module ula
+# 
+# Top level modules:
+# 	ula
+# End time: 21:36:30 on Dec 05,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 21:36:50 on Dec 05,2017
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module ula_vlg_vec_tst
+# 
+# Top level modules:
+# 	ula_vlg_vec_tst
+# End time: 21:36:51 on Dec 05,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.ula_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 21:37:13 on Dec 05,2017
+# Loading work.ula_vlg_vec_tst
+# Loading work.ula
+# ** Note: $finish    : Waveform.vwf.vt(51)
+#    Time: 16 ns  Iteration: 0  Instance: /ula_vlg_vec_tst
+# End time: 21:37:15 on Dec 05,2017, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

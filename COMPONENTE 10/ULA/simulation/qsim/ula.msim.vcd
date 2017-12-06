@@ -1,0 +1,660 @@
+$comment
+	File created using the following command:
+		vcd file ula.msim.vcd -direction
+$end
+$date
+	Tue Dec 05 21:37:15 2017
+$end
+$version
+	ModelSim Version 10.4b
+$end
+$timescale
+	1ps
+$end
+
+$scope module ula_vlg_vec_tst $end
+$var reg 8 ! entradaA [7:0] $end
+$var reg 8 " entradaB [7:0] $end
+$var reg 3 # Operacao [2:0] $end
+$var wire 1 $ saida [7] $end
+$var wire 1 % saida [6] $end
+$var wire 1 & saida [5] $end
+$var wire 1 ' saida [4] $end
+$var wire 1 ( saida [3] $end
+$var wire 1 ) saida [2] $end
+$var wire 1 * saida [1] $end
+$var wire 1 + saida [0] $end
+$var wire 1 , zero $end
+
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var tri1 1 0 devclrn $end
+$var tri1 1 1 devpor $end
+$var tri1 1 2 devoe $end
+$var wire 1 3 saida[0]~output_o $end
+$var wire 1 4 saida[1]~output_o $end
+$var wire 1 5 saida[2]~output_o $end
+$var wire 1 6 saida[3]~output_o $end
+$var wire 1 7 saida[4]~output_o $end
+$var wire 1 8 saida[5]~output_o $end
+$var wire 1 9 saida[6]~output_o $end
+$var wire 1 : saida[7]~output_o $end
+$var wire 1 ; zero~output_o $end
+$var wire 1 < Operacao[0]~input_o $end
+$var wire 1 = Operacao[2]~input_o $end
+$var wire 1 > entradaB[0]~input_o $end
+$var wire 1 ? entradaA[0]~input_o $end
+$var wire 1 @ somadorSubtrator|Add1~34_cout $end
+$var wire 1 A somadorSubtrator|Add1~1_sumout $end
+$var wire 1 B entradaA[5]~input_o $end
+$var wire 1 C entradaB[5]~input_o $end
+$var wire 1 D entradaA[7]~input_o $end
+$var wire 1 E entradaB[7]~input_o $end
+$var wire 1 F entradaA[6]~input_o $end
+$var wire 1 G entradaB[6]~input_o $end
+$var wire 1 H LessThan0~0_combout $end
+$var wire 1 I entradaA[4]~input_o $end
+$var wire 1 J entradaB[4]~input_o $end
+$var wire 1 K LessThan0~7_combout $end
+$var wire 1 L LessThan0~8_combout $end
+$var wire 1 M Operacao[1]~input_o $end
+$var wire 1 N LessThan0~1_combout $end
+$var wire 1 O LessThan0~2_combout $end
+$var wire 1 P entradaA[1]~input_o $end
+$var wire 1 Q entradaB[1]~input_o $end
+$var wire 1 R LessThan0~3_combout $end
+$var wire 1 S entradaA[3]~input_o $end
+$var wire 1 T entradaB[3]~input_o $end
+$var wire 1 U entradaA[2]~input_o $end
+$var wire 1 V entradaB[2]~input_o $end
+$var wire 1 W LessThan0~4_combout $end
+$var wire 1 X LessThan0~5_combout $end
+$var wire 1 Y LessThan0~6_combout $end
+$var wire 1 Z saidaSignal~0_combout $end
+$var wire 1 [ saidaSignal~8_combout $end
+$var wire 1 \ somadorSubtrator|Add1~2 $end
+$var wire 1 ] somadorSubtrator|Add1~5_sumout $end
+$var wire 1 ^ saidaSignal~1_combout $end
+$var wire 1 _ somadorSubtrator|Add1~6 $end
+$var wire 1 ` somadorSubtrator|Add1~9_sumout $end
+$var wire 1 a saidaSignal~2_combout $end
+$var wire 1 b somadorSubtrator|Add1~10 $end
+$var wire 1 c somadorSubtrator|Add1~13_sumout $end
+$var wire 1 d saidaSignal~3_combout $end
+$var wire 1 e somadorSubtrator|Add1~14 $end
+$var wire 1 f somadorSubtrator|Add1~17_sumout $end
+$var wire 1 g saidaSignal~4_combout $end
+$var wire 1 h somadorSubtrator|Add1~18 $end
+$var wire 1 i somadorSubtrator|Add1~21_sumout $end
+$var wire 1 j saidaSignal~5_combout $end
+$var wire 1 k somadorSubtrator|Add1~22 $end
+$var wire 1 l somadorSubtrator|Add1~25_sumout $end
+$var wire 1 m saidaSignal~6_combout $end
+$var wire 1 n somadorSubtrator|Add1~26 $end
+$var wire 1 o somadorSubtrator|Add1~29_sumout $end
+$var wire 1 p saidaSignal~7_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b11111111 "
+b0 #
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0,
+0-
+1.
+x/
+10
+11
+12
+03
+04
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+1>
+0?
+0@
+1A
+0B
+1C
+0D
+1E
+0F
+1G
+0H
+0I
+1J
+0K
+0L
+0M
+1N
+1O
+0P
+1Q
+1R
+0S
+1T
+0U
+1V
+0W
+1X
+0Y
+0Z
+0[
+0\
+1]
+0^
+0_
+1`
+0a
+0b
+1c
+0d
+0e
+1f
+0g
+0h
+1i
+0j
+0k
+1l
+0m
+0n
+1o
+0p
+$end
+#1000
+b1 !
+b11111110 "
+b1 #
+1<
+0>
+1?
+1Z
+1p
+1m
+1j
+1g
+1d
+1a
+1^
+14
+15
+16
+17
+18
+19
+1:
+1$
+1%
+1&
+1'
+1(
+1)
+1*
+1[
+13
+1+
+#2000
+b11 !
+b11111100 "
+b11 #
+b10 !
+b11111101 "
+b10 #
+0<
+1M
+1>
+0Q
+0?
+1P
+0R
+0Z
+#3000
+b11 !
+b11111100 "
+b11 #
+1<
+0>
+1?
+1Z
+#4000
+b111 !
+b11111000 "
+b111 #
+b101 !
+b11111010 "
+b101 #
+b100 !
+b11111011 "
+b100 #
+0<
+0M
+1=
+1>
+1Q
+0V
+0?
+0P
+1U
+1b
+0`
+0]
+1R
+0Z
+0A
+0o
+0l
+0i
+0f
+0c
+1@
+0a
+0^
+0p
+0m
+0j
+0g
+0d
+06
+07
+08
+09
+0:
+04
+05
+1c
+1A
+0)
+0*
+0$
+0%
+0&
+0'
+0(
+0[
+03
+0+
+#5000
+b101 !
+b11111010 "
+b101 #
+1<
+0>
+1?
+1Z
+1\
+1p
+1m
+1j
+1g
+1d
+1a
+1^
+14
+15
+16
+17
+18
+19
+1:
+1]
+1$
+1%
+1&
+1'
+1(
+1)
+1*
+1[
+13
+1+
+#6000
+b111 !
+b11111000 "
+b111 #
+b110 !
+b11111001 "
+b110 #
+0<
+1M
+1>
+0Q
+0?
+1P
+1_
+0R
+0Z
+0\
+0p
+0m
+0j
+0g
+0a
+05
+07
+08
+09
+0:
+1`
+0]
+0$
+0%
+0&
+0'
+0)
+0^
+1a
+15
+04
+0*
+1)
+#7000
+b111 !
+b11111000 "
+b111 #
+1<
+0>
+1?
+1Z
+1\
+0d
+0a
+0[
+03
+05
+06
+1]
+0(
+0)
+0+
+#8000
+b1111 !
+b11110000 "
+b1011 !
+b11110100 "
+b11 #
+b1001 !
+b11110110 "
+b1 #
+b1000 !
+b11110111 "
+b0 #
+0<
+0M
+0=
+1>
+1Q
+1V
+0T
+0?
+0P
+0U
+1S
+1e
+0c
+0X
+0`
+0]
+1R
+0Z
+0A
+1o
+1l
+1i
+1f
+0@
+1[
+13
+1h
+0f
+0\
+1A
+1+
+0[
+03
+1k
+0i
+0_
+1]
+0+
+1n
+0l
+0b
+1`
+0o
+0e
+1c
+0h
+1f
+0k
+1i
+0n
+1l
+1o
+#9000
+b1001 !
+b11110110 "
+b1 #
+1<
+0>
+1?
+1Z
+1p
+1m
+1j
+1g
+1d
+1a
+1^
+14
+15
+16
+17
+18
+19
+1:
+1$
+1%
+1&
+1'
+1(
+1)
+1*
+1[
+13
+1+
+#10000
+b1011 !
+b11110100 "
+b11 #
+b1010 !
+b11110101 "
+b10 #
+0<
+1M
+1>
+0Q
+0?
+1P
+0R
+0Z
+#11000
+b1011 !
+b11110100 "
+b11 #
+1<
+0>
+1?
+1Z
+#12000
+b1111 !
+b11110000 "
+b111 #
+b1101 !
+b11110010 "
+b101 #
+b1100 !
+b11110011 "
+b100 #
+0<
+0M
+1=
+1>
+1Q
+0V
+0?
+0P
+1U
+1b
+0`
+0]
+1R
+0Z
+0A
+0o
+0l
+0i
+0f
+1e
+0c
+1@
+0a
+0^
+0p
+0m
+0j
+0g
+0d
+06
+07
+08
+09
+0:
+04
+05
+1c
+1f
+1A
+0)
+0*
+0$
+0%
+0&
+0'
+0(
+0[
+03
+0+
+#13000
+b1101 !
+b11110010 "
+b101 #
+1<
+0>
+1?
+1Z
+1\
+1p
+1m
+1j
+1g
+1d
+1a
+1^
+14
+15
+16
+17
+18
+19
+1:
+1]
+1$
+1%
+1&
+1'
+1(
+1)
+1*
+1[
+13
+1+
+#14000
+b1111 !
+b11110000 "
+b111 #
+b1110 !
+b11110001 "
+b110 #
+0<
+1M
+1>
+0Q
+0?
+1P
+1_
+0R
+0Z
+0\
+0p
+0m
+0j
+0a
+05
+08
+09
+0:
+1`
+0]
+0$
+0%
+0&
+0)
+0^
+1a
+15
+04
+0*
+1)
+#15000
+b1111 !
+b11110000 "
+b111 #
+1<
+0>
+1?
+1Z
+1\
+0g
+0d
+0a
+0[
+03
+05
+06
+07
+1]
+0'
+0(
+0)
+0+
+#16000

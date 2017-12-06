@@ -1,0 +1,27 @@
+# do mux.do
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 18:58:40 on Dec 02,2017
+# vlog -work work mux.vo 
+# -- Compiling module mux
+# 
+# Top level modules:
+# 	mux
+# End time: 18:58:41 on Dec 02,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 18:58:42 on Dec 02,2017
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module mux_vlg_vec_tst
+# 
+# Top level modules:
+# 	mux_vlg_vec_tst
+# End time: 18:58:42 on Dec 02,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.mux_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 18:58:46 on Dec 02,2017
+# Loading work.mux_vlg_vec_tst
+# Loading work.mux
+# ** Note: $finish    : Waveform.vwf.vt(53)
+#    Time: 16 us  Iteration: 0  Instance: /mux_vlg_vec_tst
+# End time: 18:58:48 on Dec 02,2017, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

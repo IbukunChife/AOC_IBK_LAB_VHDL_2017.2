@@ -1,0 +1,205 @@
+$comment
+	File created using the following command:
+		vcd file mxor.msim.vcd -direction
+$end
+$date
+	Sat Dec 02 21:35:24 2017
+$end
+$version
+	ModelSim Version 10.4b
+$end
+$timescale
+	1ps
+$end
+
+$scope module mxor_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var wire 1 # S $end
+
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * S~output_o $end
+$var wire 1 + A~input_o $end
+$var wire 1 , B~input_o $end
+$var wire 1 - G3|R~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+1#
+0$
+1%
+x&
+1'
+1(
+1)
+1*
+0+
+1,
+1-
+$end
+#500000
+1!
+0"
+1+
+0,
+#1000000
+0!
+1"
+0+
+1,
+#1500000
+1!
+0"
+1+
+0,
+#2000000
+0!
+1"
+0+
+1,
+#2500000
+1!
+0"
+1+
+0,
+#3000000
+0!
+1"
+0+
+1,
+#3500000
+1!
+0"
+1+
+0,
+#4000000
+0!
+1"
+0+
+1,
+#4500000
+1!
+0"
+1+
+0,
+#5000000
+0!
+1"
+0+
+1,
+#5500000
+1!
+0"
+1+
+0,
+#6000000
+0!
+1"
+0+
+1,
+#6500000
+1!
+0"
+1+
+0,
+#7000000
+0!
+1"
+0+
+1,
+#7500000
+1!
+0"
+1+
+0,
+#8000000
+0!
+1"
+0+
+1,
+#8500000
+1!
+0"
+1+
+0,
+#9000000
+0!
+1"
+0+
+1,
+#9500000
+1!
+0"
+1+
+0,
+#10000000
+0!
+1"
+0+
+1,
+#10500000
+1!
+0"
+1+
+0,
+#11000000
+0!
+1"
+0+
+1,
+#11500000
+1!
+0"
+1+
+0,
+#12000000
+0!
+1"
+0+
+1,
+#12500000
+1!
+0"
+1+
+0,
+#13000000
+0!
+1"
+0+
+1,
+#13500000
+1!
+0"
+1+
+0,
+#14000000
+0!
+1"
+0+
+1,
+#14500000
+1!
+0"
+1+
+0,
+#15000000
+0!
+1"
+0+
+1,
+#15500000
+1!
+0"
+1+
+0,
+#16000000

@@ -1,0 +1,29 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+ENTITY ram8 is 
+Port ( clock,load,store: in std_logic ;
+		 address: in std_logic_vector( 3 downto 0);
+		 datain:in std_logic_vector( 7 downto 0);
+		 dataout: out std_logic_vector( 7 downto 0);
+end ram8;
+
+architecture behavior of ram8 is 
+	type RAM is array (15 downto 0) of std_logic_vector(7 downto 0);
+	signal mem : RAM:
+begin 
+	process (clock,load,store,address)
+	begin 
+			if(clock'event AND clock='1')then
+					if(store='1' and load='0')then
+						mem(to.integer(unsigned(address)))<=datain;
+					elsif (store='0' and load='1') then
+						dataout <=mem(to.integer(unsigned(address)));
+					else
+						dataout <= "11111111";
+					end if;
+			end if;
+	end process;
+end behavior;

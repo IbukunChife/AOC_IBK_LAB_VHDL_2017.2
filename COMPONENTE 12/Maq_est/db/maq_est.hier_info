@@ -1,0 +1,15 @@
+|maq_est
+ck => estado~5.DATAIN
+P => estado.OUTPUTSELECT
+P => estado.OUTPUTSELECT
+P => estado.OUTPUTSELECT
+P => estado.OUTPUTSELECT
+P => estado.OUTPUTSELECT
+P => estado.OUTPUTSELECT
+P => estado.OUTPUTSELECT
+P => Selector1.IN3
+P => Selector0.IN1
+iniciar => estado~7.DATAIN
+R <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+

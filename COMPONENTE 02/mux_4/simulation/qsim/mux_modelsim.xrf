@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 02/mux_4/mux.vhd
+source_file = 1, C:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 02/mux_4/Waveform.vwf
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera_lite/15.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 02/mux_4/db/mux.cbx.xml
+design_name = mux
+instance = comp, \R~output , R~output, mux, 1
+instance = comp, \A~input , A~input, mux, 1
+instance = comp, \B~input , B~input, mux, 1
+instance = comp, \C~input , C~input, mux, 1
+instance = comp, \D~input , D~input, mux, 1
+instance = comp, \S[0]~input , S[0]~input, mux, 1
+instance = comp, \S[1]~input , S[1]~input, mux, 1
+instance = comp, \Mux0~0 , Mux0~0, mux, 1

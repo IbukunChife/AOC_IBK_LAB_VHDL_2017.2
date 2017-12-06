@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 01/regd/simulation/qsim
+vregd
+!s110 1512249617
+!i10b 1
+!s100 T81NjTTe?KRE8ZO4d:P9M0
+IIL43FmhFHjAHWcn^jN2J>0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1512249608
+8regd.vo
+Fregd.vo
+L0 32
+Z2 OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1512249617.000000
+!s107 regd.vo|
+!s90 -work|work|regd.vo|
+!i113 1
+Z3 o-work work
+vregd_vlg_vec_tst
+!s110 1512249619
+!i10b 1
+!s100 lJ3ehgC:YgJcaZVJJPSF@0
+I6g=cPU[neWY?HPV0=Y=iL2
+R1
+R0
+w1512249597
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+!s108 1512249618.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R3

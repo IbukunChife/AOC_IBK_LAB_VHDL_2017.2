@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/WizIBK inck/Desktop/ArquitecturaTrabalho/COMPONENTE 09/Unidade de Controle/simulation/qsim
+vuniControle
+!s110 1512522325
+!i10b 1
+!s100 3:k;k6Y;V3Cb^WgPT9G:^3
+I7CD`L?7KC@okT6`N;X4]l0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1512522191
+8uniControle.vo
+FuniControle.vo
+L0 32
+Z2 OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1512522324.000000
+!s107 uniControle.vo|
+!s90 -work|work|uniControle.vo|
+!i113 1
+Z3 o-work work
+nuni@controle
+vuniControle_vlg_vec_tst
+!s110 1512522345
+!i10b 1
+!s100 [E=dNUJJn8dh@[;cF^=Yj3
+Ii`]>@c?dJ9k?4c85Vi>V90
+R1
+R0
+w1512522139
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+!s108 1512522345.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R3
+nuni@controle_vlg_vec_tst

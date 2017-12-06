@@ -1,0 +1,29 @@
+# do regd.do
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:20:17 on Dec 02,2017
+# vlog -work work regd.vo 
+# -- Compiling module regd
+# 
+# Top level modules:
+# 	regd
+# End time: 17:20:17 on Dec 02,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:20:18 on Dec 02,2017
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module regd_vlg_vec_tst
+# 
+# Top level modules:
+# 	regd_vlg_vec_tst
+# End time: 17:20:19 on Dec 02,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.regd_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 17:20:23 on Dec 02,2017
+# Loading work.regd_vlg_vec_tst
+# Loading work.regd
+# Loading altera_ver.dffeas
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Note: $finish    : Waveform.vwf.vt(47)
+#    Time: 16 us  Iteration: 0  Instance: /regd_vlg_vec_tst
+# End time: 17:20:24 on Dec 02,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

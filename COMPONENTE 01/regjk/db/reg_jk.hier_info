@@ -1,0 +1,7 @@
+|reg_jk
+J => Mux0.IN3
+K => Mux0.IN4
+Clk => Q.CLK
+Q_out <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+
